@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7553E0-8CF3-4DB8-9B64-5DB7B9EB5A26}|ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj|c:\\users\\batuhandogan\\onedrive\\desktop\\programmersblog\\programmersblog.shared\\utilities\\results\\complextypes\\concrete\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7553E0-8CF3-4DB8-9B64-5DB7B9EB5A26}|ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj|solutionrelative:programmersblog.shared\\utilities\\results\\complextypes\\concrete\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2577BBB7-65EE-44A4-B3F5-7C4254CD5B6B}|ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj|c:\\users\\batuhandogan\\onedrive\\desktop\\programmersblog\\programmersblog.services\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2577BBB7-65EE-44A4-B3F5-7C4254CD5B6B}|ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj|solutionrelative:programmersblog.services\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB7553E0-8CF3-4DB8-9B64-5DB7B9EB5A26}|ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj|c:\\users\\batuhandogan\\onedrive\\desktop\\programmersblog\\programmersblog.shared\\data\\concrete\\entityframeworkcore\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7553E0-8CF3-4DB8-9B64-5DB7B9EB5A26}|ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj|solutionrelative:programmersblog.shared\\data\\concrete\\entityframeworkcore\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E032F73-1559-43F5-9E82-397302414F75}|ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj|c:\\users\\batuhandogan\\onedrive\\desktop\\programmersblog\\programmersblog.mvc\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E032F73-1559-43F5-9E82-397302414F75}|ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj|solutionrelative:programmersblog.mvc\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2577BBB7-65EE-44A4-B3F5-7C4254CD5B6B}|ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj|c:\\users\\batuhandogan\\onedrive\\desktop\\programmersblog\\programmersblog.services\\utilities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2577BBB7-65EE-44A4-B3F5-7C4254CD5B6B}|ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj|solutionrelative:programmersblog.services\\utilities\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E032F73-1559-43F5-9E82-397302414F75}|ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj|c:\\users\\batuhandogan\\onedrive\\desktop\\programmersblog\\programmersblog.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E032F73-1559-43F5-9E82-397302414F75}|ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj|solutionrelative:programmersblog.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E032F73-1559-43F5-9E82-397302414F75}|ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj|c:\\users\\batuhandogan\\onedrive\\desktop\\programmersblog\\programmersblog.mvc\\pages\\aboutdeveloper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E032F73-1559-43F5-9E82-397302414F75}|ProgrammersBlog.Mvc\\ProgrammersBlog.Mvc.csproj|solutionrelative:programmersblog.mvc\\pages\\aboutdeveloper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataResult.cs",
+              "DocumentMoniker": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Shared\\Utilities\\Results\\ComplexTypes\\Concrete\\DataResult.cs",
+              "RelativeDocumentMoniker": "ProgrammersBlog.Shared\\Utilities\\Results\\ComplexTypes\\Concrete\\DataResult.cs",
+              "ToolTip": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Shared\\Utilities\\Results\\ComplexTypes\\Concrete\\DataResult.cs",
+              "RelativeToolTip": "ProgrammersBlog.Shared\\Utilities\\Results\\ComplexTypes\\Concrete\\DataResult.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T13:43:33.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Services\\Utilities\\Message.cs",
+              "RelativeDocumentMoniker": "ProgrammersBlog.Services\\Utilities\\Message.cs",
+              "ToolTip": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Services\\Utilities\\Message.cs",
+              "RelativeToolTip": "ProgrammersBlog.Services\\Utilities\\Message.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAD4vx0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:20:04.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProgrammersBlog.Mvc\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProgrammersBlog.Mvc\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAMwDsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:20:04.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Shared\\Data\\Concrete\\EntityFrameworkCore\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "ProgrammersBlog.Shared\\Data\\Concrete\\EntityFrameworkCore\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Shared\\Data\\Concrete\\EntityFrameworkCore\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "ProgrammersBlog.Shared\\Data\\Concrete\\EntityFrameworkCore\\EfEntityRepositoryBase.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAMwFIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:20:04.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProgrammersBlog.Mvc\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProgrammersBlog.Mvc\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAD4vywAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:20:04.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Services\\Concrete\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "ProgrammersBlog.Services\\Concrete\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Services\\Concrete\\CategoryManager.cs",
+              "RelativeToolTip": "ProgrammersBlog.Services\\Concrete\\CategoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:20:04.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutDeveloper.cshtml",
+              "DocumentMoniker": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\Pages\\AboutDeveloper.cshtml",
+              "RelativeDocumentMoniker": "ProgrammersBlog.Mvc\\Pages\\AboutDeveloper.cshtml",
+              "ToolTip": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\Pages\\AboutDeveloper.cshtml",
+              "RelativeToolTip": "ProgrammersBlog.Mvc\\Pages\\AboutDeveloper.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T14:23:49.883Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @await Html.PartialAsync(partialViewName: "_LayoutCssPartial")
+    @await Html.PartialAsync(partialViewName: "_LayoutJsPartial")
+</head>
+<body>
+    <div class="container">
+        <partial name="_Notification"></partial>
+        <a class=" btn btn-sm btn-dark mt-2 ml-4"asp-controller="Article" asp-action="Index">
+            <i class="fas fa-home"></i>
+            Ana sayfaya dön
+        </a>
+        @RenderBody()
+        @RenderSection("Scripts", required: false)
+    </div>
+</body>
+</html>

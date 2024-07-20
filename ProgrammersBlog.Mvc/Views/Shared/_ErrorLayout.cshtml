@@ -1,0 +1,23 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @await Html.PartialAsync(partialViewName: "_LayoutCssPartial")
+    @await Html.PartialAsync(partialViewName: "_LayoutJsPartial")
+</head>
+<body>
+    <div class="container">
+        <center>
+            @RenderBody()
+            <br />
+            <div class="row">
+                    <a class="text-warning mt-2 cursor-pointer " asp-controller="Article" asp-action="Index">
+                         Ana sayfaya dön
+                    </a>
+            </div>
+        </center>
+
+        @RenderSection("Scripts", required: false)
+    </div>
+</body>
+</html>

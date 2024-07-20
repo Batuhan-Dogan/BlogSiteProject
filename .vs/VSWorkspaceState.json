@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ProgrammersBlog.Data",
+    "\\ProgrammersBlog.Data\\Concrete",
+    "\\ProgrammersBlog.Data\\Concrete\\EntityFramework",
+    "\\ProgrammersBlog.Data\\Migrations",
+    "\\ProgrammersBlog.Mvc\\Views\\Comment",
+    "\\ProgrammersBlog.Services\\Abstract"
+  ],
+  "SelectedNode": "\\ProgrammersBlog.Data\\Migrations\\20240416095105_SeriLogMigration.Designer.cs",
+  "PreviewInSolutionExplorer": false
+}

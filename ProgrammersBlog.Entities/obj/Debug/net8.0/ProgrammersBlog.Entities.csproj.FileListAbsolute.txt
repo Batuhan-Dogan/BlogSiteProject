@@ -1,0 +1,15 @@
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net8.0\ProgrammersBlog.Entities.deps.json
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net8.0\ProgrammersBlog.Entities.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net8.0\ProgrammersBlog.Entities.pdb
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net8.0\ProgrammersBlog.Shared.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\bin\Debug\net8.0\ProgrammersBlog.Shared.pdb
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ProgrammersBlog.Entities.csproj.AssemblyReference.cache
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ProgrammersBlog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ProgrammersBlog.Entities.AssemblyInfoInputs.cache
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ProgrammersBlog.Entities.AssemblyInfo.cs
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ProgrammersBlog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\Programm.97034618.Up2Date
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ProgrammersBlog.Entities.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\refint\ProgrammersBlog.Entities.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ProgrammersBlog.Entities.pdb
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Entities\obj\Debug\net8.0\ref\ProgrammersBlog.Entities.dll

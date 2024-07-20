@@ -1,0 +1,50 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    <li class="nav-item dropdown mr-4 ">
+        <div class="dropdown ml-1">
+            <!-- dropleft class'ı eklendi -->
+            <button class="btn btn-secondary rounded-circle" style="height:3rem;width:3rem;"  data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-user"></i>
+            </button>
+            <ul class="dropdown-menu btn p-0 rounded-3 overflow-hidden bg-white" style="margin-left:-100px;">
+                <li>
+                    <a class="dropdown-item bg-white" style="font-size:14px;" asp-area="" asp-controller="User" asp-action="Index">
+                        <i class="fas fa-user-edit"></i>
+                        Profili Görüntüle
+                    </a>
+                </li>
+                @if (User.IsInRole("admin") || User.IsInRole("editor"))
+                {
+                    <li class="nav-item">
+                        <a href="/Admin/" class="btn dropdown-item rounded-0 bg-white" id="btnAdmin">
+                            <i class="fas fa-cogs"></i>
+                            Admin
+                        </a>
+                    </li>
+                }
+                <li>
+                    <a class="dropdown-item btn  rounded-0 bg-white" asp-area="" asp-controller="Account" asp-action="ChangePassword" style="font-size:14px;">
+                        <i class="fas fa-key"></i>
+                        Parola Güncelle
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="btnLogout" class="btn btn-logOut rounded-0 dropdown-item bg-white">
+                        <i class="fas fa-sign-out-alt"></i>
+                        Çıkış Yap
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </li>
+
+}
+else
+{
+    <li class="nav-item mt-1">
+        <a class="btn btn-sm btn-dark p-2" style="margin-right:5px;" href="/Account/LogIn?ReturnUrl=%2FAdmin%2F">
+            <i class="far fa-user"></i>
+            Giriş Yap
+        </a>
+    </li>
+}

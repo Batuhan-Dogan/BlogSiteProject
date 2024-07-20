@@ -1,0 +1,101 @@
+﻿@model UsersListDto
+@{
+    Layout = "_Layout";
+     
+}
+<title>Kullanıcılar</title>
+@if (Model.ResultStatus == ResultStatus.Success)
+{
+    <div class="row ml-3">
+        <ol class="breadcrumb mb-3 mt-2">
+            <li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="User" asp-action="Index">Kullanıcılar</a></li>
+        </ol>
+    </div>
+    <div id="moddelPlaceHolder" aria-hidden="true"></div>
+    <div class="card mb-4 mt-2">
+        <div class="card-header">
+            <i class="fas fa-table mr-1"></i>
+            Kullanıcılar
+        </div>
+        <div class="row">
+            <div class="container text-center">
+                <div class="btn-group mt-3">
+                    <a class="btn btn-sm btn-success rounded-0" asp-area="Admin" asp-controller="User" asp-action="AddUser" id="btnAdd">
+                        <i class="fas fa-plus"></i>
+                        Kullanıcı Ekle
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button id="btnLoading" class="btn btn-lg mt-1" style="display:none;width:60px;height:60px;">
+                <i class="fas fa-spinner fa-pulse text-primary"></i>
+            </button>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="usersTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Kullanıcı Adı</th>
+                            <th>Email</th>
+                            <th>Telefon Numarası</th>
+                            <th>Kullanıcı fotoğrafı</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>ID</th>
+                            <th>Kullanıcı Adı</th>
+                            <th>Email</th>
+                            <th>Telefon Numarası</th>
+                            <th>Kullanıcı fotoğrafı</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        @foreach (var user in Model.Users)
+                        {
+                            <tr name="@user.Id ">
+                                <td>@user.Id</td>
+                                <td>@user.UserName</td>
+                                <td>@user.Email</td>
+                                <td>@user.PhoneNumber</td>
+                                <td>
+                                    <img src="~/img/@user.Picture" style="max-width:100px;max-height:200px;">
+                                </td>
+                                <td>
+                                    <div class="">
+                                        <button class="btn-remove btn-sm btn-block btn-danger rounded-0 border-0" data-id="@user.Id">
+                                            <i class="fas fa-trash-alt"></i>
+                                            Sil
+                                        </button>
+                                        <a asp-area="Admin" asp-controller="User" asp-action="UpdateUser" asp-route-id="@user.Id" class="btn btn-sm btn-block btn-warning mt-1 rounded-0 btn-edit">
+                                            <i class="fas fa-edit"></i>
+                                            Düzenle
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+@if (Model.ResultStatus.Equals(ResultStatus.Error))
+{
+    <h1 class="lead text-danger">@Model.Message</h1>
+    <br />
+    <h6>Admin alanına dönmek için <a class="alert-link" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">tıklayınız.</a></h6>
+}
+@section Scripts
+    {
+    <script src="~/AdminLTE/js/userDelete.js"></script>
+    <script src="~/AdminLTE/js/userIndex.js">
+    </script>
+}

@@ -1,0 +1,13 @@
+﻿@using ProgrammersBlog.Shared.Entities.Concrete
+@{
+    MvcErrorModel error = ViewData["MvcErrorModel"] as MvcErrorModel;
+    Layout = "_ErrorLayout";
+}
+<div class="row">
+    <img class="img-fluid" style="max-width:550px;max-height:550px;margin:auto" src="~/img/errorImages/3819287.jpg" />
+</div>
+@error.Message
+@if(error.Detail is not null)
+{
+    <div>@error.Detail</div>
+}

@@ -1,0 +1,20 @@
+﻿.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin: auto;
+    background-color: red;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.scrollmenu a:hover {
+    background-color: indianred;
+    transition: 1s;
+}

@@ -1,0 +1,40 @@
+﻿@using Entities.Models
+@model ArticleListViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-lg ">
+    <div class="row">
+        @Model.Pagination.SearchTerm
+        <div class="col-md-12">
+            <div class="row">
+                @if (Model.Articles.ResultStatus != 0)
+                {
+                    <h3 class=" text-danger mt-2">@Model.Articles.Message</h3>
+                }
+                else
+                {
+                    @foreach (var article in Model.Articles.Articles)
+                    {
+                        <partial name="_ArticleCardPartial" model="article"></partial>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+    <div class="row mt-2">
+            <div class="" style="margin:auto" >
+                <div page-model="@Model.Pagination"
+                     page-action="Index"
+                     page-classes-enabled=true
+                     page-class="page-item page-link text-white"
+                     page-class-normal="bg-dark "
+                     page-class-selected="bg-primary"
+                     class=" pagination ">
+                </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/orderBySelectedList.js"></script>
+}

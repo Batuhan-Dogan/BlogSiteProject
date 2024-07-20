@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProgrammersBlog.Mvc</title>
+    @await Html.PartialAsync(partialViewName: "_LayoutCssPartial")
+    @await Html.PartialAsync(partialViewName: "_LayoutJsPartial")
+    @await RenderSectionAsync("Styles", false)
+
+</head>
+<body >
+    <header>
+        @await Component.InvokeAsync("TopNavBar")
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div>
+                <partial name="_Notification"></partial>
+            </div>
+            <div class="container-lg">
+                
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 " >
+                            <partial name="_FilterMenuPartial"></partial>
+                        </div>
+                        <div class="col-md-9">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    @RenderSection("_Footer", false)
+    <partial name="_Footer"></partial>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

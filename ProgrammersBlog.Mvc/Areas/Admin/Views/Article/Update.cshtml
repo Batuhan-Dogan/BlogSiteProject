@@ -1,0 +1,152 @@
+﻿@model ArticleDtoForGetOne
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Makaleler";
+}
+@if (Model.ResultStatus==ResultStatus.Error)
+{
+        <h2 class=" lead text-danger"> @Model.Message</h2>
+    <h2 class="lead">Makale tablosuna geri dönmek için <a asp-asp-area="Admin" asp-asp-controller="Article" asp-action="Index" class="font-weight-bold">tıklayın.</a></h2>
+
+}
+else
+{
+    <div class="row ml-3">
+        <ol class="breadcrumb mb-3 mt-2">
+            <li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="Article" asp-action="Index">Makaleler</a></li>
+            <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="Article" asp-action="Update">Makale Düzenle</a></li>
+        </ol>
+    </div>
+    <form method="post" asp-area="Admin" id="form-article-update" enctype="multipart/form-data">
+        <input type="hidden" name="Id" value="@Model.Article.Id" />
+        <input type="hidden" value="@Model.Article.CreatedByName" name="CreatedByName" />
+        <input type="hidden" value="@Model.Article.UserId" name="UserId" />
+        <input type="hidden" value="@Model.Article.Thumbnail" name="Thumbnail" />
+        <input type="hidden" value="@Model.Article.CreatedTime" name="CreatedTime" />
+
+        <div class="row mt-2">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label name="Title">Başlık</label>
+                            <input type="text" value="@Model.Article.Title" class="form-control" name="Title" />
+                        </div>
+                        <div class="form-group">
+                            <label name="Title">Başlık</label>
+                            <input type="text" value="@Model.Article.CreatedTime" class="form-control" readonly name="CreatedTime" />
+                        </div>
+                        <div class="form-group">
+                            <label name="Content"></label>
+                            <textarea id="text-editor" name="Content">
+                                @Model.Article.Content
+                            </textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Temel Konfigurasyonlar
+                        <div class="card-body">
+                            <img src="~/img/@Model.Article.Thumbnail" class="img-thumbnail" />
+                            <div class="form-body">
+                                
+                                <label name="CategoryId">Kategori Seçin</label>
+                                <select id="categoryList" class="form-control" name="CategoryId">
+                                    @{
+                                        foreach (var item in ViewBag.Categories)
+                                        {
+                                            if (Model.Article.CategoryId == item.Id)
+                                            {
+                                                <option value="@item.Id" selected>@item.Name</option>
+                                            }
+                                            else
+                                            {
+                                               <option value="@item.Id">@item.Name</option> 
+                                            } 
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label namw="Date">Tarih Seçin</label>
+                                <input type="text" id="datepicker" value="@DateTime.Now.ToShortDateString()" class="form-control" name="Date" />
+                            </div>
+                            <div class="form-group">
+                                <label >Thumbnail Fotoğrafı Seçin</label>
+                                <input type="file" accept="image/*" class="form-control-file" name="ThumbnailFile" />
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="IsActive" class="form-check-input border border-dark" @(Model.Article.IsActive == true ? "checked" : "") />
+                                <label name="IsActive" >Aktif mi?</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="IsDeleted" class="form-check-input border border-dark" @(Model.Article.IsDeleted == true ? "checked" : "") />
+                                <label name="IsDeleted">Silinmiş mi</label>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary mt-4 btn-block btn-save ">
+                                    <div id="btn-save-sight" >
+                                        <i class="fas fa-save"></i> Kaydet
+                                    </div>
+                                    <div id="btn-save-animation" style="display:none">
+                                        <div class="lds-ellipsis" ><div></div><div></div><div></div><div></div></div>
+                                    </div>
+                                </button>
+                                <a class=" btn btn-danger btn-block mt-1" asp-area="Admin" asp-controller="Article" asp-action="Index">
+                                    <i class="fas fa-times"></i> İptal Et
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-2">
+                <div class="card">
+                    <div class="card-header">
+                        SEO Optimizasyonu
+                    </div>
+                    <div class="card-body">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label name="SeoAuthor"></label>
+                                <input name="SeoAuthor" id="seoWriter" class="form-control" value="@Model.Article.SeoAuthor" />
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label name="SeoTags">Etiketler</label>
+                                <input  class="form-control" name="SeoTags" value="@Model.Article.SeoTags" />
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label name="SeoDescription">Açıklama</label>
+                                <textarea class="form-control" name="SeoDescription" >@Model.Article.SeoDescription</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    @section Scripts {
+    <script src="~/AdminLTE/js/articleUpdate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/trumbowyg.min.js" integrity="sha512-YJgZG+6o3xSc0k5wv774GS+W1gx0vuSI/kr0E0UylL/Qg/noNspPtYwHPN9q6n59CTR/uhgXfjDXLTRI+uIryg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/langs/tr.min.js" integrity="sha512-4Lri9C2eYjnoar37EumYfA8RgOZoMBOXTzkpSgkdvbRH7ts8OP/vsXnoouBAXdrU2x5NxUkdQGe4fBxSjvFiGA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/plugins/colors/trumbowyg.colors.min.js" integrity="sha512-SHpxBJFbCaHlqGpH13FqtSA+QQkQfdgwtpmcWedAXFCDxAYMgrqj9wbVfwgp9+HgIT6TdozNh2UlyWaXRkiurw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/plugins/fontfamily/trumbowyg.fontfamily.min.js" integrity="sha512-oATdSCPRZu3qFFyxrZ66ma2QbQybLqpRqwLRp2IQEaIABnEHcs2qDf6UOVA/V5LhBvxFxKCNvyVb/yQfwDkFhQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/plugins/fontsize/trumbowyg.fontsize.js" integrity="sha512-xHFhu0HHBdpnUP6TpIuwa1FGVr1K99NKrVJTuRKOxNJJ2Y8h3H16mqml92F2r2PYyl5ToovnWyaVyL8TLhN/jQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/AdminLTE/js/articleEditPanel.js"></script>
+
+    }
+    @section Styles {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/ui/trumbowyg.min.css" integrity="sha512-Fm8kRNVGCBZn0sPmwJbVXlqfJmPC13zRsMElZenX6v721g/H7OukJd8XzDEBRQ2FSATK8xNF9UYvzsCtUpfeJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.27.3/plugins/colors/ui/trumbowyg.colors.min.css" integrity="sha512-vw0LMar38zTSJghtmUo0uw000TBbzhsxLZkOgXZG+U4GYEQn+c+FmVf7glhSZUQydrim3pI+/m7sTxAsKhObFA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/dark-hive/jquery-ui.min.css" integrity="sha512-gCFexX+67Pl9rPa75MMyEH2I5jbD5tqij8VBYcsLVwgVfVEdfon+9CEjVnXPtqoHLXjxrjMcyHLaee65dt/jxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/dark-hive/theme.min.css" integrity="sha512-pN35/N51n1IeABlNGOSb5ltVKGbvUE8exTMhiB/4ijuy+UOYEWawQZzEs2yUvvCWopRO3uiRueeGnd/mQD0eTQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/AdminLTE/css/processing-animation.css" />
+    }
+}

@@ -1,0 +1,90 @@
+﻿@using ProgrammersBlog.Mvc.Areas.Admin.Models
+@model DashboardViewModel
+<h1>Admin Alanı</h1>
+<div class="row ">
+    <div class=" col-xl-3 col-md-2 mt-1 ">
+        <div class="card bg-danger text-white ">
+            <div class="card-body  my-2 lead ">Kategoriler</div>
+            <div class="card-footer">
+                <div>
+                    <button class="btn  btn-dark">Detaylar</button>
+                    <table class="table  mt-1">
+                        <tbody>
+                            <tr class="table-danger">
+                                <td> Kategori sayısı</td>
+                                <td>@Model.CategoryCount</td>
+                            </tr>
+                        <tr class="table-danger">
+                                <td>Aktif kategori sayısı</td>
+                                <td>@Model.ActiveCategoryCount</td>
+                            </tr>
+                        <tr class="table-danger">
+                                <td>Silinmiş kategori sayısı</td>
+                                <td>@Model.DeletedCategoryCount</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class=" col-xl-3 col-md-2 mt-1">
+        <div class="card bg-primary text-white">
+            <div class="card-body  my-2 lead">Makaleler</div>
+            <div class="card-footer">
+                <div>
+                    <button class="btn  btn-dark">Detaylar</button>
+                    <table class="table mt-1">
+                        <tbody>
+                            <tr class="table-primary">
+                                <td> Kategori sayısı</td>
+                                <td>@Model.ArticleCount</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>Aktif kategori sayısı</td>
+                                <td>@Model.ActiveArticleCount</td>
+                            </tr>
+                            <tr class="table-primary">
+                                <td>Silinmiş kategori sayısı</td>
+                                <td>@Model.DeletedArticleCount</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" col-xl-3 col-md-2 mt-1">
+        <div class="card bg-warning text-white">
+            <div class="card-body  my-2 lead">Yorumlar</div>
+            <div class="card-footer">
+                <button class="btn  btn-dark">Detaylar</button>
+                <table class="table  mt-1">
+                    <tbody>
+                        <tr class="table-warning">
+                            <td> Yorum sayısı</td>
+                            <td>@Model.CommentCount</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Aktif yorum sayısı</td>
+                            <td>@Model.ActiveCommentCount</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Silinmiş yorum sayısı</td>
+                            <td>@Model.DeletedCommentCount</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class=" col-xl-3 col-md-2 mt-1">
+        <div class="card bg-success text-white">
+            <div class="card-body  my-2 lead">Kullanıcılar</div>
+            <div class="card-footer">
+                <button class="btn  btn-dark">Detaylar</button>
+            </div>
+        </div>
+    </div>
+
+</div>

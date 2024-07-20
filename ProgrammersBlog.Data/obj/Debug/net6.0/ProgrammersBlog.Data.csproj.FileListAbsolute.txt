@@ -1,0 +1,57 @@
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.deps.json
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.runtimeconfig.json
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.dll
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.pdb
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Entities.dll
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Shared.dll
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Entities.pdb
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Shared.pdb
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.AssemblyReference.cache
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.AssemblyInfoInputs.cache
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.AssemblyInfo.cs
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.CoreCompileInputs.cache
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.CopyComplete
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.dll
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\refint\ProgrammersBlog.Data.dll
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.pdb
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.genruntimeconfig.cache
+C:\Users\batuhan doğan\source\repos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ref\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.deps.json
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.runtimeconfig.json
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.pdb
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Entities.dll
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Shared.dll
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Entities.pdb
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Shared.pdb
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.AssemblyReference.cache
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.AssemblyInfoInputs.cache
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.AssemblyInfo.cs
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.CoreCompileInputs.cache
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.CopyComplete
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\refint\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.pdb
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.genruntimeconfig.cache
+C:\Users\batuhandogan\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ref\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.deps.json
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.runtimeconfig.json
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Data.pdb
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Entities.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Shared.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Entities.pdb
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net6.0\ProgrammersBlog.Shared.pdb
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.AssemblyReference.cache
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.AssemblyInfoInputs.cache
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.AssemblyInfo.cs
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.CoreCompileInputs.cache
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.csproj.CopyComplete
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\refint\ProgrammersBlog.Data.dll
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.pdb
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ProgrammersBlog.Data.genruntimeconfig.cache
+C:\Users\batuhandogan\OneDrive\Desktop\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net6.0\ref\ProgrammersBlog.Data.dll

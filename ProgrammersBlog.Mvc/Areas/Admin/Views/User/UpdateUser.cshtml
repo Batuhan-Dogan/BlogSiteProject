@@ -1,0 +1,88 @@
+﻿@model ProgrammersBlog.Entities.Dtos.Classes.UserDtoForGetOne
+@if (Model.ResultStatus.Equals(ResultStatus.Error))
+{
+    <h3 class="text-danger">
+        @Model.Message
+    </h3>
+    <br />
+    <a asp-controller="User" asp-action="Index"> Kulanıcı sayfasına dönün.
+    </a>
+}
+else
+{
+    <br />
+    <div class="row ml-3">
+        <ol class="breadcrumb mb-3 mt-2">
+            <li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="User" asp-action="Index">Kullanıcılar</a></li>
+            <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="User" asp-action="UpdateUser">Kullanıcı düzenle</a></li>
+        </ol>
+    </div>
+    <div class="row  p-2">
+        <div class=" p-4 bg-light-2" style="width:380px;margin:auto;">
+            <div class="lead">
+                <h4 class="modal-title"><i class="fas fa-edit"></i>Kullanıcı Düzenle</h4>
+                <br />
+                <div class="">
+                    <form method="post" asp-area="Admin" id="form-user-update">
+                        <div class="text-center" >
+                            <img src="~/img/@Model.User.Picture" style="max-width:100px;max-height:200px;" />
+                        </div>
+                        <input type="hidden" name="Picture" value="@Model.User.Picture" />
+                        <input type="hidden" name="Id" value="@Model.User.Id" />
+                        <input type="hidden" name="PasswordHash" value="@Model.User.PasswordHash" />
+                        <div class="form-group">
+                            <label >Kullanıcı Adı</label>
+                            <input id="modelName" class="form-control" name="UserName" value="@Model.User.UserName" />
+                        </div>
+                        <div class="form-group">
+                            <label name="Email">E-Mail</label>
+                            <input id="modelEmail" class="form-control" name="Email" value="@Model.User.Email" />
+                        </div>
+                        <div class="form-group">
+                            <label name="PhoneNumber">Telefon Numarası</label>
+                            <input id="modelPhoneNumber" name="PhoneNumber" class="form-control" value="@Model.User.PhoneNumber" />
+                        </div>
+                        <div class="form-group">
+                            <label>Yeni profil fotoğrafını seç</label>
+                            <input id="modelPicture" name="PictureFile" type="file" accept="image/*" class="form-control-file" />
+                        </div>
+                        <div class="col-md-6">
+                            <div class="lead p-2 mt-2">
+                                Yetkiler:
+                                @foreach (var item in Model.Roles)
+                                {
+                                    <div class="form-check">
+                                        <input type="checkbox" name="Roles" value="@item" checked="@Model.UserRoles.Contains(item)" class="form-check-input" style="border:1px solid black;" />
+                                        <label class="form-check-label">@item</label>
+                                    </div>
+                                }
+                            </div>
+                            <div class="text-danger" asp-validation-summary="All">
+                            </div>
+                        </div>
+                        <div class="text-danger lead error-messages" style="font-size:14px;"></div>
+                        <br />
+                        <div class="modal-footer ">
+                            <div class="btn-group text-white" style="margin:auto">
+                                <a asp-area="Admin" asp-controller="User" asp-action="Index" class="btn btn-danger rounded-0">
+                                    <i class="fas fa-times"></i>
+                                    İptal
+                                </a>
+                                <button class="btn text-white rounded-0 btn-primary btn-save ">
+                                    <i class="fas fa-save"></i>
+                                    Kaydet
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@section Scripts {
+    <script src="~/AdminLTE/js/userUpdate.js">
+    </script>
+}

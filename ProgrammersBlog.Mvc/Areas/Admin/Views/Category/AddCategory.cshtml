@@ -1,0 +1,54 @@
+﻿@model CategoryAddDto
+<div class="row">
+    <ol class="breadcrumb mb-3 mt-2">
+        <li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+        <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="Category" asp-action="Index">Kategori</a></li>
+        <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="Category" asp-action="AddCategory">Kategori ekle</a></li>
+    </ol>
+</div>
+    <div class="row p-2  ">
+        <div class="col-md-12">
+            <div class="col-md-5" style="margin:auto">
+                <div class=" p-4  " >
+                    <div class="lead">
+                        <h4 class="modal-title" ><i class="fas fa-plus"></i> Kategori Ekle</h4>
+                        <br />
+                        <div>
+                        <form method="post" asp-area="Admin" asp-controller="Category" asp-action="AddCategory" enctype="multipart/form-data">
+                                <div class="form-group">
+                                    <label asp-for="@Model.Name"></label>
+                                    <input  class="form-control" asp-for="@Model.Name" />
+                                    <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="@Model.Description"></label>
+                                    <input  class="form-control" asp-for="@Model.Description" />
+                                </div>
+                                <div class="form-group">
+                                    <label asp-for="@Model.Note"></label>
+                                    <input  class="form-control " asp-for="@Model.Note" />
+                                </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input border border-dark" asp-for="@Model.IsActive" />
+                                    <label asp-for="@Model.IsActive" class="form-check-label"></label>
+                                </div>
+                                <br />
+                                <div class="modal-footer">
+                                    <div class="btn-group text-white text-center">
+                                        <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-danger ">
+                                            <i class="fas fa-times"></i>
+                                            İptal
+                                        </a>
+                                        <button type="submit" class="btn text-white btn-primary " >
+                                            <i class="fas fa-save"></i>
+                                            Kaydet
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>

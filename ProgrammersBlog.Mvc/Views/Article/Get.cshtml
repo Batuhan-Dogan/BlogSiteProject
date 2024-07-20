@@ -1,0 +1,109 @@
+﻿@model ArticleDtoForGetOne
+@if (Model.ResultStatus != 0)
+{
+    <h4>@Model.Message</h4>
+}
+else
+{
+    <div class="container-sm">
+        <div class="row mt-4">
+            @Html.Raw(Model.Article.Content)
+        </div>
+        <br />
+       <div class="row">
+           <div class="container text-center ">
+                <div class="p-2 btn rounded-3 border-1 border-info">
+                   Etiketler: @Model.Article.SeoTags
+               </div>
+                <div class="p-2 btn rounded-3 border-1 border-info">
+                    Oluşturulma Tarihi: @Model.Article.Date.ToString("dd/mm/yyyy")
+                </div>
+                <div class="p-2 btn rounded-3 border-1 border-info">
+                    Okunma Sayısı: @Model.Article.ViewsCount
+                </div>
+           </div>
+       </div>
+            <br />
+            <div class="row" >
+                <div class="container py-5">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <div class="col col-md-9 col-lg-7 col-xl-5">
+                            <div class="card">
+                            <div class="card-body p-4 rounded-4" style="background-color:#3550473b">
+                                    <div class="d-flex text-black">
+                                        <div class="flex-shrink-0">
+                                            <img src="~/img/@Model.Article.User.Picture"
+                                                 alt="Generic placeholder image" class="img-fluid rounded-4"
+                                                 style="width: 180px; border-radius: 10px;">
+                                        </div>
+                                        <div class=" ms-3">
+                                            <h5 class="mb-1">@Model.Article.User.UserName</h5><h6>tarafından yazıldı</h6>
+                                            <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                                                 style="background-color: #efefef;">
+                                                <div>
+                                                    <p class="small text-muted mb-1">Makaleler</p>
+                                                    <p class="mb-0"></p>
+                                                </div>
+                                            </div>
+                                        <a class="btn btn-sm btn-primary " href="@Model.Article.User.LinkedInProfile">
+                                            <i class="fab fa-linkedin-in"></i>
+                                            </a>
+                                            <a  class="btn btn-sm btn-dark" href="@Model.Article.User.GitHubProfile">
+                                                <i class="fab fa-github"></i>
+                                            </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-4">
+                    <div class="h4 ml-2">
+                        <i class="far fa-comments"></i>
+                        Yorumlar
+                    </div>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <partial name="~/Views/Comment/_CommentAddPartialAsync.cshtml" model="new CommentAddDto(){ArticleId=Model.Article.Id,CreatedByName=Model.Article.User.UserName}" />
+                    }
+                    else
+                    {
+                        <div class="" >
+                            <h4>Sadece kayıtlı kullanıcılar yorum yapabilir. <a class="btn btn-sm btn-outline-primary" href="/Account/LogIn/">Giriş yap</a></h4>
+                        </div>
+                        
+                    }
+                    <div class="container comments" style=" height:510px;overflow:hidden;overflow-y:auto;">
+                        @foreach (var comment in Model.Article.Comments)
+                        {
+                            <div class="p-4 rounded-4 text-center mt-2" style="background-color:#0000002b">
+                                <div class="row">
+                                    @comment.CreatedByName
+                                </div>
+                                <div class="row mt-2 lead">
+                                    @comment.Text
+                                </div>
+                                <div class="row mt-2">
+                                    @comment.CreatedTime.ToString("d") Tarihinde yaynlandı
+                                </div>
+                            </div>
+                        }
+                        <div class="row p-2 new-comments-container"></div>
+                        <div class="row">
+                            <input id="ArticleId" value="@Model.Article.Id" type="hidden"/>
+                            <div class="btn btn-block m-2 lead get-more-comment " style="color:orangered;border:2px solid orangered;">Daha Fazla Yorum Göster</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+}
+@section Scripts{
+    <script src="~/js/commentAdd.js"></script>
+    <script src="~/js/commentGetMoreButton.js"></script>
+}

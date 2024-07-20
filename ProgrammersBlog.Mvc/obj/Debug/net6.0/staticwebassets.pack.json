@@ -1,0 +1,473 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProgrammersBlog.Mvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProgrammersBlog.Mvc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\AdminLTE\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\css\\Cards.css",
+      "PackagePath": "staticwebassets\\AdminLTE\\css\\Cards.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\css\\processing-animation.css",
+      "PackagePath": "staticwebassets\\AdminLTE\\css\\processing-animation.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\css\\styles.css",
+      "PackagePath": "staticwebassets\\AdminLTE\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\articleEditPanel.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\articleEditPanel.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\articleIndex.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\articleIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\articleUpdate.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\articleUpdate.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\categoryIndex.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\categoryIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\categoryUpdate.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\categoryUpdate.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\commentAdd.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\commentAdd.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\commentDelete.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\commentDelete.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\commentIndex.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\commentIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\commentUpdate.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\commentUpdate.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\logout.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\logout.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\userDelete.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\userDelete.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\userIndex.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\userIndex.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\AdminLTE\\js\\userUpdate.js",
+      "PackagePath": "staticwebassets\\AdminLTE\\js\\userUpdate.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\css\\topNavBar.css",
+      "PackagePath": "staticwebassets\\css\\topNavBar.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\articleImages\\default.png",
+      "PackagePath": "staticwebassets\\img\\articleImages\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\errorImages\\3582365.jpg",
+      "PackagePath": "staticwebassets\\img\\errorImages\\3582365.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\errorImages\\3819287.jpg",
+      "PackagePath": "staticwebassets\\img\\errorImages\\3819287.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\errorImages\\3828537.jpg",
+      "PackagePath": "staticwebassets\\img\\errorImages\\3828537.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\errorImages\\3828541.jpg",
+      "PackagePath": "staticwebassets\\img\\errorImages\\3828541.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\C++ ile Algoritma Yapilari_744_8_33_22_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\C++ ile Algoritma Yapilari_744_8_33_22_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\Design Patterns Tasarım Kalıpları Nedir _447_36_44_23_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\Design Patterns Tasarım Kalıpları Nedir _447_36_44_23_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\Docker nedir_818_15_0_23_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\Docker nedir_818_15_0_23_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\Factory Design Pattern Nedir_347_25_6_14_5_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\Factory Design Pattern Nedir_347_25_6_14_5_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\NET 8  ShortCircuit Routing_476_32_21_23_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\NET 8  ShortCircuit Routing_476_32_21_23_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\NesneYönelimliProgramlama(OOP)Nedir_287_32_28_22_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\NesneYönelimliProgramlama(OOP)Nedir_287_32_28_22_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\Redis_863_16_30_22_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\Redis_863_16_30_22_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\SOLID Prensipleri Nedir_194_25_50_14_5_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\postImages\\SOLID Prensipleri Nedir_194_25_50_14_5_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\postImages\\defaultThumbnail.jpg",
+      "PackagePath": "staticwebassets\\img\\postImages\\defaultThumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\userImages\\BatuhanD_73_36_46_16_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\userImages\\BatuhanD_73_36_46_16_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\userImages\\BatuhanD_973_28_25_13_3_4_2024.jpeg",
+      "PackagePath": "staticwebassets\\img\\userImages\\BatuhanD_973_28_25_13_3_4_2024.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\userImages\\batb_655_13_40_22_4_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\userImages\\batb_655_13_40_22_4_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\userImages\\batuhanDogan_908_39_37_13_17_4_2024.png",
+      "PackagePath": "staticwebassets\\img\\userImages\\batuhanDogan_908_39_37_13_17_4_2024.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\userImages\\default.png",
+      "PackagePath": "staticwebassets\\img\\userImages\\default.png"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\vectorImages\\20944999.jpg",
+      "PackagePath": "staticwebassets\\img\\vectorImages\\20944999.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\vectorImages\\2650149.jpg",
+      "PackagePath": "staticwebassets\\img\\vectorImages\\2650149.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\vectorImages\\3567818.jpg",
+      "PackagePath": "staticwebassets\\img\\vectorImages\\3567818.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\vectorImages\\5385948.jpg",
+      "PackagePath": "staticwebassets\\img\\vectorImages\\5385948.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\img\\vectorImages\\6310507.jpg",
+      "PackagePath": "staticwebassets\\img\\vectorImages\\6310507.jpg"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\js\\changeSocialBlades.js",
+      "PackagePath": "staticwebassets\\js\\changeSocialBlades.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\js\\commentAdd.js",
+      "PackagePath": "staticwebassets\\js\\commentAdd.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\js\\commentGetMoreButton.js",
+      "PackagePath": "staticwebassets\\js\\commentGetMoreButton.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\js\\commentGetMoreUsersCommentButton.js",
+      "PackagePath": "staticwebassets\\js\\commentGetMoreUsersCommentButton.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\js\\logOut.js",
+      "PackagePath": "staticwebassets\\js\\logOut.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\js\\orderBySelectedList.js",
+      "PackagePath": "staticwebassets\\js\\orderBySelectedList.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\js\\verifyAccount.js",
+      "PackagePath": "staticwebassets\\js\\verifyAccount.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\batuhandogan\\OneDrive\\Desktop\\ProgrammersBlog\\ProgrammersBlog.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProgrammersBlog.Mvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProgrammersBlog.Mvc.props",
+      "PackagePath": "build\\ProgrammersBlog.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProgrammersBlog.Mvc.props",
+      "PackagePath": "buildMultiTargeting\\ProgrammersBlog.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProgrammersBlog.Mvc.props",
+      "PackagePath": "buildTransitive\\ProgrammersBlog.Mvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

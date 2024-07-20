@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    @await Html.PartialAsync(partialViewName:"_LayoutCssPartial");
+    @await RenderSectionAsync("Styles",false);
+    <link href="~/AdminLTE/css/styles.css" rel="stylesheet" />
+    <title>@ViewBag.Title - Admin Paneli | Programmers Blog</title>
+</head>
+<body class="sb-nav-fixed">
+    @await Component.InvokeAsync("TopBarNav")
+    <div id="layoutSidenav">
+        @await Component.InvokeAsync("SideBarNav")
+        <div id="layoutSidenav_content">
+            <main>
+                <partial name="_Notification"></partial>
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+            </main>
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Tüm Hakları Saklıdır BatuhanDoğan@gmail.com</div>
+                        <div>
+                            <a href="#">Gizlilik Politikası</a>
+                            &middot;
+                            <a href="#">Terms &amp; Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    @await Html.PartialAsync(partialViewName:"_LayoutJsPartial") 
+    @await RenderSectionAsync(name:"Scripts",required:false);
+</body>
+</html>
+<style>
+    body{background-color:aliceblue}
+</style>
+

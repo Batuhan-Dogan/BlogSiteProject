@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Role>
+@if (Model.Count()==0)
+{
+    <h4>Yetki verileri getirilirken bir hata oluştu ana menüye geri dönmek için <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">tıklayınız.</a></h4>
+}
+else
+{        
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Yetki adı</th>
+                <th scope="col"> Yetki Adı</th>
+            </tr>
+        </thead>
+    <tbody>
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <th scope="row">@role.Id</th>
+                    <td> @role.Name</td>
+                    <td>@role.NormalizedName</td>
+                </tr>
+               
+            }
+
+    </tbody>
+</table>
+
+}

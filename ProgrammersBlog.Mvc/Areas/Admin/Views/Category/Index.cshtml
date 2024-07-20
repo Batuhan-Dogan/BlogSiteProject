@@ -1,0 +1,127 @@
+﻿@model CategoryListDto
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = " Kategoriler Index";
+}
+@if (Model.ResultStatus == ResultStatus.Success)
+{
+    <div class="row ml-3">
+        <ol class="breadcrumb mb-3 mt-2">
+            <li class="breadcrumb-item"><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+            <li class="breadcrumb-item active"><a asp-area="Admin" asp-controller="Category" asp-action="Index">Kategoriler</a></li>
+        </ol>
+    </div>
+<div id="moddelPlaceHolder" aria-hidden="true"></div>
+<div class="card mb-4 mt-2">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Kategoriler
+    </div>
+    <div class="row">
+        <div class=" text-center">
+            <div class="btn-group mt-3">
+                    <a class="btn btn-sm btn-success rounded-0" asp-area="Admin" asp-controller="Category" asp-action="AddCategory" id="btnAdd">
+                    <i class="fas fa-plus"></i>
+                    Kategori Ekle
+                </a>
+                    <button class="btn btn-sm btn-info text-white" id="reload">
+                    <i class="fas fa-redo-alt"></i>
+                    Sayfayı Yenile
+                </button>
+                <br>
+            </div>
+        </div>                       
+    </div>
+    <div class="row">
+            <button id="btnLoading" class="btn btn-lg mt-1" style="display:none;width:60px;height:60px;">
+                <i class="fas fa-spinner fa-pulse text-primary"></i>
+            </button>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="categoriesTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr >
+                        <th>ID</th>
+                        <th>Adı</th>
+                        <th>Açıklaması</th>
+                        <th>Aktif Mi?</th>
+                        <th>Silinmiş Mi?</th>
+                        <th>Not</th>
+                        <th>Oluşturulma Tarihi</th>
+                        <th>Oluşturan Kullanıcı Adı</th>
+                        <th>Son Düzenlenme Tarihi</th>
+                        <th>Son Düzenleyen Kullanıcı Adı</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th>ID</th>
+                        <th>Adı</th>
+                        <th>Açıklaması</th>
+                        <th>Aktif Mi?</th>
+                        <th>Silinmiş Mi?</th>
+                        <th>Not</th>
+                        <th>Oluşturulma Tarihi</th>
+                        <th>Oluşturan Kullanıcı Adı</th>
+                        <th>Son Düzenlenme Tarihi</th>
+                        <th>Son Düzenleyen Kullanıcı Adı</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <tr name="@category.Id ">
+                            <td>@category.Id</td>
+                            <td>@category.Name</td>
+                            <td>@category.Description</td>
+                            <td>
+                                @{string isActive=(category.IsActive==true)?"Evet":"Hayır";
+                                }@isActive
+                                </td>
+                            <td>
+                                @{
+                                    string isDeleted = (category.IsDeleted == true) ? "Evet" : "Hayır";
+                                }
+                                @isDeleted
+                            </td>
+                            <td>@category.Note</td>
+                            <td>@category.CreatedTime.ToShortDateString()</td>
+                            <td>@category.CreatedByName</td>
+                            <td>@category.ModifiedTime.ToShortDateString()</td>
+                            <td>@category.ModifiedByName</td>
+                            <td>
+                                <div class="text-center">
+                                        <button class="btn btn-block btn-sm btn-delete btn-danger rounded-0" data-id="@category.Id">
+                                        <i class="fas fa-trash-alt"></i>
+                                        Sil
+                                    </button>
+                                        <a class="btn btn-sm btn-block btn-warning mt-1 rounded-0 btn-edit" asp-area="Admin" asp-controller="Category" asp-action="UpdateCategory" asp-route-id="@category.Id">
+                                            <i class="far fa-edit"></i>
+                                            Düzenle
+                                    </a>
+                                </div>
+                        
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+}
+@if (Model.ResultStatus.Equals(ResultStatus.Error))
+{
+    <h1 class="lead text-danger">@Model.Message</h1>
+    <br />
+    <h6>Admin alanına dönmek için <a class="alert-link" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">tıklayınız.</a></h6>
+}
+@section Scripts
+{
+    <script src="~/AdminLTE/js/categoryIndex.js">
+    </script>
+}

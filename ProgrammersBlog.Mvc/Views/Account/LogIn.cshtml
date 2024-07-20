@@ -1,0 +1,53 @@
+﻿@model UserLoginDto
+
+@{
+    Layout = "_AccountLayout";
+    string returnUrl = ViewBag.ReturnUrl ?? Model?.ReturnUrl ?? "/";
+}
+<html>
+<head>
+    <title>Giriş Yapınız</title>
+</head>
+<body>
+    <div class="col-md-12">
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>Giriş Yap</h3>
+                <form method="post" asp-controller="Account" asp-action="logIn">
+                    <input type="hidden" asp-for="ReturnUrl" value="@returnUrl" />
+                    <div class="form-outline mb-3">
+                        <label asp-for="Email"> E-mail</label>
+                        <input class="form-control" asp-for="Email" />
+                        <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-outline mb-3">
+                        <label asp-for="Password"> Şifre</label>
+                        <input class="form-control" asp-for="Password" />
+                        <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-outline mb-3">
+                        <label asp-for="RememberMe"></label>
+                        <input asp-for="RememberMe" type="checkbox" />
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <button type="submit" class="btn bg-black text-white rounded-5 lead" style="width:14rem;height:3rem;">
+                            Giriş Yap
+                        </button>
+                    </div>
+                </form>
+                <div class="d-flex align-items-center justify-content-center pb-4 mb-3">
+                    <p class="mb-0 me-2">Bir hesabınız yok mu?</p>
+                    <a type="button" class="btn btn-info rounded-4" href="/Account/Register">
+                        Kayıt ol
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="~/img/vectorImages/6310507.jpg" />
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

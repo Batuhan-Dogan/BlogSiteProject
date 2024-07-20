@@ -1,0 +1,88 @@
+﻿@{
+    Layout = "_UserLayout";
+}
+@using ProgrammersBlog.Shared.Entities.Concrete
+@model User
+<div class="container-sm mt-3">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card-group">
+                    <div class="card-body">
+                        <center>
+                            <img src="~/img/@Model.Picture" class="image-fluid center" style="max-width:10rem;max-height:20rem;" />
+                        </center>
+                        <div class="card-footer text-center lead">@Model.UserName</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <table class="table lead">
+                    <tr>
+                        <td>
+                            @Model.Email
+                        </td>
+                        <td id="email-Confirmed" data-id="@Model.EmailConfirmed">
+                            @Html.Raw(Model.EmailConfirmed ? "<i class='fas fa-check text-success'></i>" : "<a class='btn btn-secondary rounded-4 btn-verify'style='width: 10rem'><i class='fas fa-times'></i> Doğrulanmadı</a>")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            @Model.PhoneNumber
+                        </td>
+                        <td id="phoneNumber-Confired" data-id="@Model.PhoneNumberConfirmed">
+                            @Html.Raw(Model.EmailConfirmed ? "<i class='fas fa-check text-success'></i>" : "<a class='btn btn-secondary rounded-4 btn-verify' style='width: 10rem'><i class='fas fa-times'></i> Doğrulanmadı</a>")
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >**********</td>
+                        <td><a asp-controller="Account" asp-action="ChangePassword" class="btn btn-info rounded-4" style="width:10rem">Parolayı Güncelle</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                Yorumlar
+                                    @await Component.InvokeAsync("UsersCommentCount", new { userName = Model.UserName })
+                            </p>
+
+                        </td>
+                        <td><div class="btn btn-dark rounded-4 get-more-users-comments" style="width:10rem"> Yorumlara Getir </div> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <partial name="_ManageSocialBladesPartial" model="new SocialBlades{GitHubProfileUrl=Model.GitHubProfile,LinkedInProfileUrl=Model.LinkedInProfile}"></partial>
+
+        </div>
+     <br />
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-10">
+                    <div class="table-responsive-lg">
+                        <table class="table text-center  comments-table" style="display:none">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="border-0">Yayınlanma Tarihi</th>
+                                    <th scope="col" class="border-0">Yorum</th>
+                                    <th scope="col" class="border-0">İşlemler</th>
+                                </tr>
+                            </thead>
+                            <tbody class="new-comment-area">
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+@section Scripts{
+    <script src="~/js/verifyAccount.js"></script>
+    <script src="~/js/commentGetMoreUsersCommentButton.js"></script>
+}

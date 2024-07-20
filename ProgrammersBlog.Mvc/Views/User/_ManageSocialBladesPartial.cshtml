@@ -1,0 +1,57 @@
+﻿@using ProgrammersBlog.Shared.Entities.Concrete
+@model SocialBlades
+<br />
+<div class="container-sm p-3 rounded-4" style="background-color:#d9d9d9">
+    <h5> Sosyal Medya</h5>
+     <form method="post" id="form-social-blades">
+        <div class="row mt-2">
+            <div class="form-group">
+                <label name="GitHubProfileUrl">
+                    <i class="fab fa-github"></i>
+                    Github
+                </label>
+                @if(Model.GitHubProfileUrl is null)
+                {
+                    <input name="GitHubProfileUrl" class="form-control" placeholder="Github Profil linki giriniz" />
+                }
+                else
+                {
+                    <input name="GitHubProfileUrl" class="form-control" value="@Model.GitHubProfileUrl" />
+                }
+
+                <span class="text-danger h6" asp-validation-for="@Model.GitHubProfileUrl"></span>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="form-group">
+                <label name="LinkedInProfileUrl">
+                    <i class="fab fa-linkedin-in"></i>
+                    Linkedin
+                </label>
+                @if (Model.LinkedInProfileUrl is null)
+                {
+                    
+                    <input name="LinkedInProfileUrl" class="form-control" placeholder="Linkedin Profil linki giriniz" />
+                }
+                else
+                {
+                    <input name="LinkedInProfileUrl" class="form-control" value="@Model.LinkedInProfileUrl" />
+
+                }
+            </div>
+        </div>
+        <div class="row mt-4">
+            <center>
+            <button style="width:10rem" class="btn btn-dark lead rounded-4 btn-change-social-blades">
+                    <i class="fas fa-pencil-alt"></i>
+                    Düzenle
+            </button>
+            </center>
+        </div>
+    </form>
+</div>
+<br/>
+@section Scripts {
+    <script src="~/js/changeSocialBlades.js"></script>
+}
+<script src="~/js/changeSocialBlades.js"></script>
